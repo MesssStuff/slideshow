@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <title>Slideshow</title>
+  <style>
+    * {
+      margin: 0;
+    }
+
+    .window {
+      overflow: hidden;
+      width: 600px;
+    }
+
+    .images {
+      display: flex;
+      align-items: flex-start;
+      transition: all 0.5s;
+    }
+
+    .red {
+      color: red;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="window">
+    <div class="images">
+      <img src="./images/1.jpg" width="600">
+      <img src="./images/2.jpg" width="600">
+      <img src="./images/3.jpg" width="600">
+      <img src="./images/4.jpg" width="600">
+    </div>
+  </div>
+  <div class="buttons">
+    <button>Pic1</button>
+    <button>Pic2</button>
+    <button>Pic3</button>
+    <button>Pic4</button>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
